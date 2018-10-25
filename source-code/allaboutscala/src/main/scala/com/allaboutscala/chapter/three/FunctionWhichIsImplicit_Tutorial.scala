@@ -23,12 +23,9 @@ package com.allaboutscala.chapter.three
   */
 object FunctionWhichIsImplicit_Tutorial extends App {
 
-
   println("Step 1: How to create a wrapper String class which will extend the String type")
   class DonutString(s: String) {
-
     def isFavoriteDonut: Boolean = s == "Glazed Donut"
-
   }
 
 
@@ -51,7 +48,8 @@ object FunctionWhichIsImplicit_Tutorial extends App {
 
 
 
-  println("\nStep 5: How to access the custom String function called isFavaoriteDonut")
+  println("\nStep 5: How to access the custom String function called isFavoriteDonut")
   println(s"Is Glazed Donut my favorite Donut  = ${glazedDonut.isFavoriteDonut}")
   println(s"Is Vanilla Donut my favorite Donut = ${vanillaDonut.isFavoriteDonut}")
+
 }
